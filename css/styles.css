@@ -108,11 +108,10 @@ img {
     align-items: flex-start;
 }
 
-/* Посилання у футері */
+/* Футерне посилання */
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
-    /* відступ між лого і текстом */
 }
 
 /* Текст футера */
