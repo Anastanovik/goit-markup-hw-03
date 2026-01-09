@@ -13,12 +13,13 @@ img {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    overflow: hidden;
 }
 
 /* CONTAINER */
@@ -107,7 +108,7 @@ img {
     align-items: flex-start;
 }
 
-footer a.logo {
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -374,8 +375,4 @@ footer a.logo {
 
 .portfolio-item .feature-text {
     margin: 0;
-}
-.footer a {
-    display: inline-block;
-    margin-bottom: 16px;
 }
