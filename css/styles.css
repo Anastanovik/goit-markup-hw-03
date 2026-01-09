@@ -119,7 +119,7 @@ img {
 }
 
 footer .footer-logo {
-    display: inline-block !important;
+    display: block !important;
     margin-bottom: 16px !important;
 }
 
