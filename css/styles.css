@@ -118,10 +118,10 @@ img {
     margin: 0;
 }
 
-.footer-logo {
+/*.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-}
+} */
 
 /* LOGO */
 .logo {
@@ -133,6 +133,8 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-span-dark {
