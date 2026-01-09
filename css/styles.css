@@ -108,13 +108,6 @@ img {
     align-items: flex-start;
 }
 
-.footer .logo {
-    display: inline-block;
-    /* виправлено для автотесту */
-    margin-bottom: 16px;
-    /* виправлено для автотесту */
-}
-
 .footer-text {
     width: 264px;
     font-size: 16px;
@@ -379,4 +372,8 @@ img {
 
 .portfolio-item .feature-text {
     margin: 0;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
