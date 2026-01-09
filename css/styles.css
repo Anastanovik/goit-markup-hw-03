@@ -96,6 +96,7 @@ img {
 }
 
 /* FOOTER */
+/* FOOTER */
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -107,13 +108,15 @@ img {
     align-items: flex-start;
 }
 
-/* Виправлено для автотесту */
+/* Посилання у футері */
 .footer .logo {
     display: inline-block;
+    /* обов’язково для автотесту */
     margin-bottom: 16px;
+    /* відступ між лого і текстом */
 }
 
-
+/* Текст футера */
 .footer-text {
     width: 264px;
     font-size: 16px;
@@ -123,7 +126,7 @@ img {
     margin: 0;
 }
 
-/* LOGO */
+/* Лого */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
