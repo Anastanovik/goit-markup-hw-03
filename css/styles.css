@@ -376,3 +376,6 @@ img {
 .portfolio-item .feature-text {
     margin: 0;
 }
+.footer a {
+    display: inline-block;
+}
