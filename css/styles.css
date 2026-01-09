@@ -118,7 +118,7 @@ img {
 }
 
 footer .footer-logo {
-    display: block !important;
+    display: inline-block !important;
     margin-bottom: 16px !important;
 }
 
