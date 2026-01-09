@@ -118,7 +118,7 @@ img {
     margin: 0;
 }
 
-.footer a.logo {
+.footer.logo {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -373,4 +373,8 @@ width: calc((100% - 72px)/4);
 
 .portfolio-item .feature-text {
     margin: 0;
+}
+.footer a.logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
