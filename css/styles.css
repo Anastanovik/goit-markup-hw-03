@@ -110,7 +110,7 @@ img {
 
 /* Футерне посилання */
 .footer .logo {
-    display: inline-block;
+    display: inline-block !important;
     margin-bottom: 16px;
 }
 
