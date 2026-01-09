@@ -8,6 +8,7 @@ img {
     display: block;
 }
 
+/* ПАТТЕРН ДЛЯ ПРИХОВАННЯ */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -96,7 +97,6 @@ img {
 }
 
 /* FOOTER */
-/* FOOTER */
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -108,15 +108,13 @@ img {
     align-items: flex-start;
 }
 
-/* Посилання у футері */
 .footer .logo {
     display: inline-block;
-    /* обов’язково для автотесту */
+    /* виправлено для автотесту */
     margin-bottom: 16px;
-    /* відступ між лого і текстом */
+    /* виправлено для автотесту */
 }
 
-/* Текст футера */
 .footer-text {
     width: 264px;
     font-size: 16px;
@@ -126,7 +124,7 @@ img {
     margin: 0;
 }
 
-/* Лого */
+/* LOGO */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -254,18 +252,6 @@ img {
     padding-bottom: 120px;
 }
 
-/* прихований заголовок */
-.features h2.visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
-}
 
 .features-list {
     display: flex;
